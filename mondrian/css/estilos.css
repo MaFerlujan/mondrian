@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--blanco); /* Fondo blanco para mejor contraste */
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container {
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+  
+  :root {
+    --amarillo: #F9A800;
+    --rojo: #E74C3C;
+    --verde: #2ECC71;
+    --azul: #3498DB;
+    --violeta: #9B59B6;
+    --turquesa: #1ABC9C;
+    --naranja: #E67E22;
+    --blanco: #F6F6F4;
+    --gris-claro: #DFDFE2;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 80px);
+    gap: 10px;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.block {
+    border: 1px solid var(--gris-claro);
+    transition: transform 0.3s ease;
+}
+
+.block:hover {
+    transform: scale(2.05);
+}
+
+
+.block1 { background-color: var(--amarillo); }
+.block2 { background-color: var(--amarillo); }
+.block3 { background-color: var(--blanco); }
+.block4 { background-color: var(--azul); }
+.block5 { background-color: var(--azul); }
+.block6 { background-color: var(--azul); }
+.block7 { background-color: var(--rojo); }
+.block8 { background-color: var(--rojo); }
+.block9 { background-color: var(--rojo); }
+.block10 { background-color: var(--rojo); }
+.block11 { background-color: var(--amarillo); }
+.block12 { background-color: var(--amarillo); }
+.block13 { background-color: var(--blanco); }
+.block14 { background-color: var(--azul); }
+.block15 { background-color: var(--azul); }
+.block16 { background-color: var(--azul); }
+.block17 { background-color: var(--blanco); }
+.block18 { background-color: var(--blanco); }
+.block19 { background-color: var(--blanco); }
+.block20 { background-color: var(--blanco); }
+.block21 { background-color: var(--blanco); }
+.block22 { background-color: var(--blanco); }
+.block23 { background-color: var(--blanco); }
+.block24 { background-color: var(--azul); }
+.block25 { background-color: var(--azul); }
+.block26 { background-color: var(--azul); }
+.block27 { background-color: var(--blanco); }
+.block28 { background-color: var(--blanco); }
+.block29 { background-color: var(--blanco); }
+.block30 { background-color: var(--blanco); }
+.block31 { background-color: var(--blanco); }
+.block32 { background-color: var(--blanco); }
+.block33 { background-color: var(--blanco); }
+.block34 { background-color: var(--blanco); }
+.block35 { background-color: var(--violeta); }
+.block36 { background-color: var(--violeta); }
+.block37 { background-color: var(--turquesa); }
+.block38 { background-color: var(--turquesa); }
+.block39 { background-color: var(--blanco); }
+.block40 { background-color: var(--blanco); }
+.block41 { background-color: var(--turquesa); }
+.block42 { background-color: var(--turquesa); }
+.block43 { background-color: var(--turquesa); }
+.block44 { background-color: var(--blanco); }
+.block45 { background-color: var(--violeta); }
+.block46 { background-color: var(--violeta); }
+.block47 { background-color: var(--turquesa); }
+.block48 { background-color: var(--verde); }
+.block49 { background-color: var(--azul); }
+.block50 { background-color: var(--amarillo); }
+.block51 { background-color: var(--blanco); }
+.block52 { background-color: var(--violeta); }
+.block53 { background-color: var(--violeta); }
+.block54 { background-color: var(--violeta); }
+.block55 { background-color: var(--blanco); }
+.block56 { background-color: var(--blanco); }
+.block57 { background-color: var(--amarillo); }
+.block58 { background-color: var(--turquesa); }
+.block59 { background-color: var(--naranja); }
+.block60 { background-color: var(--azul); }
+.block61 { background-color: var(--blanco); }
+.block62 { background-color: var(--violeta); }
+.block63 { background-color: var(--violeta); }
+.block64 { background-color: var(--violeta); }
+.block65 { background-color: var(--blanco); }
+.block66 { background-color: var(--verde); }
+.block67 { background-color: var(--azul); }
+.block68 { background-color: var(--rojo); }
+.block69 { background-color: var(--turquesa); }
+.block70 { background-color: var(--naranja); }
+.block71 { background-color: var(--azul); }
+.block72 { background-color: var(--violeta); }
+.block73 { background-color: var(--violeta); }
+.block74 { background-color: var(--blanco); }
+.block75 { background-color: var(--blanco); }
+.block76 { background-color: var(--turquesa); }
+.block77 { background-color: var(--naranja); }
+.block78 { background-color: var(--amarillo); }
+.block79 { background-color: var(--rojo); }
+.block80 { background-color: var(--verde); }
+.block81 { background-color: var(--azul); }
+.block82 { background-color: var(--blanco); }
+.block83 { background-color: var(--blanco); }
+.block84 { background-color: var(--naranja); }
+.block85 { background-color: var(--amarillo); }
+.block86 { background-color: var(--rojo); }
+.block87 { background-color: var(--verde); }
+.block88 { background-color: var(--azul); }
+.block89 { background-color: var(--violeta); }
+.block90 { background-color: var(--turquesa); }
+.block91 { background-color: var(--blanco); }
+.block92 { background-color: var(--amarillo); }
+.block93 { background-color: var(--rojo); }
+.block94 { background-color: var(--verde); }
+.block95 { background-color: var(--azul); }
+.block96 { background-color: var(--violeta); }
+.block97 { background-color: var(--turquesa); }
+.block98 { background-color: var(--blanco); }
+.block99 { background-color: var(--amarillo); }
+.block100 { background-color: var(--rojo); }
+/* Colores y posiciones para cada bloque 
+.block1 { background-color: var(--amarillo); }
+.block2 { background-color: var(--rojo); }
+.block3 { background-color: var(--verde); }
+.block4 { background-color: var(--azul); }
+.block5 { background-color: var(--violeta); }
+.block6 { background-color: var(--turquesa); }
+.block7 { background-color: var(--naranja); }
+.block8 { background-color: var(--amarillo); }
+.block9 { background-color: var(--rojo); }
+.block10 { background-color: var(--verde); }
+.block11 { background-color: var(--azul); }
+.block12 { background-color: var(--violeta); }
+.block13 { background-color: var(--turquesa); }
+.block14 { background-color: var(--naranja); }
+.block15 { background-color: var(--amarillo); }
+.block16 { background-color: var(--rojo); }
+.block17 { background-color: var(--verde); }
+.block18 { background-color: var(--azul); }
+.block19 { background-color: var(--violeta); }
+.block20 { background-color: var(--turquesa); }
+.block21 { background-color: var(--naranja); }
+.block22 { background-color: var(--amarillo); }
+.block23 { background-color: var(--rojo); }
+.block24 { background-color: var(--verde); }
+.block25 { background-color: var(--azul); }
+.block26 { background-color: var(--violeta); }
+.block27 { background-color: var(--turquesa); }
+.block28 { background-color: var(--naranja); }
+.block29 { background-color: var(--amarillo); }
+.block30 { background-color: var(--rojo); }
+.block31 { background-color: var(--verde); }
+.block32 { background-color: var(--azul); }
+.block33 { background-color: var(--violeta); }
+.block34 { background-color: var(--turquesa); }
+.block35 { background-color: var(--naranja); }
+.block36 { background-color: var(--amarillo); }
+.block37 { background-color: var(--rojo); }
+.block38 { background-color: var(--verde); }
+.block39 { background-color: var(--azul); }
+.block40 { background-color: var(--violeta); }
+.block41 { background-color: var(--turquesa); }
+.block42 { background-color: var(--naranja); }
+.block43 { background-color: var(--amarillo); }
+.block44 { background-color: var(--rojo); }
+.block45 { background-color: var(--verde); }
+.block46 { background-color: var(--azul); }
+.block47 { background-color: var(--violeta); }
+.block48 { background-color: var(--turquesa); }
+.block49 { background-color: var(--naranja); }
+.block50 { background-color: var(--amarillo); }
+.block51 { background-color: var(--rojo); }
+.block52 { background-color: var(--verde); }
+.block53 { background-color: var(--azul); }
+.block54 { background-color: var(--violeta); }
+.block55 { background-color: var(--turquesa); }
+.block56 { background-color: var(--naranja); }
+.block57 { background-color: var(--amarillo); }
+.block58 { background-color: var(--rojo); }
+.block59 { background-color: var(--verde); }
+.block60 { background-color: var(--azul); }
+.block61 { background-color: var(--violeta); }
+.block62 { background-color: var(--turquesa); }
+.block63 { background-color: var(--naranja); }
+.block64 { background-color: var(--amarillo); }
+.block65 { background-color: var(--rojo); }
+.block66 { background-color: var(--verde); }
+.block67 { background-color: var(--azul); }
+.block68 { background-color: var(--violeta); }
+.block69 { background-color: var(--turquesa); }
+.block70 { background-color: var(--naranja); }
+.block71 { background-color: var(--amarillo); }
+.block72 { background-color: var(--rojo); }
+.block73 { background-color: var(--verde); }
+.block74 { background-color: var(--azul); }
+.block75 { background-color: var(--violeta); }
+.block76 { background-color: var(--turquesa); }
+.block77 { background-color: var(--naranja); }
+.block78 { background-color: var(--amarillo); }
+.block79 { background-color: var(--rojo); }
+.block80 { background-color: var(--verde); }
+.block81 { background-color: var(--azul); }
+.block82 { background-color: var(--violeta); }
+.block83 { background-color: var(--turquesa); }
+.block84 { background-color: var(--naranja); }
+.block85 { background-color: var(--amarillo); }
+.block86 { background-color: var(--rojo); }
+.block87 { background-color: var(--verde); }
+.block88 { background-color: var(--azul); }
+.block89 { background-color: var(--violeta); }
+.block90 { background-color: var(--turquesa); }
+.block91 { background-color: var(--naranja); }
+.block92 { background-color: var(--amarillo); }
+.block93 { background-color: var(--rojo); }
+.block94 { background-color: var(--verde); }
+.block95 { background-color: var(--azul); }
+.block96 { background-color: var(--violeta); }
+.block97 { background-color: var(--turquesa); }
+.block98 { background-color: var(--naranja); }
+.block99 { background-color: var(--amarillo); }
+.block100 { background-color: var(--rojo); }*/
+
+.informacion {
+    width: 70%;
+    margin: 50px auto;
+    color: var(--gris);
+}
+
+.informacion .audio-container {
+    display: flex;
+    justify-content: center;
+}
+
+.informacion p {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.back-button a {
+    margin: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid var(--gris);
+    border-radius: 5px;
+    color: var(--gris);
+}
+
+.back-button a:hover {
+    background-color: var(--gris);
+    color: var(--blanco);
+}
